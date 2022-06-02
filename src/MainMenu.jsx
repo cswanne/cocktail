@@ -1,14 +1,14 @@
 import React from 'react';
-import {useState, useEffect} from 'react';
+import {useEffect} from 'react';
 import banner from './images/banner6.jpg';
 import logo from './images/logo.png';
 import { Link } from 'react-router-dom';
 import './MainMenu.css';
 
 const MainMenu = () => {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);  
+  //const [data, setData] = useState(null);
+  //const [loading, setLoading] = useState(true);
+  //const [error, setError] = useState(null);  
  
   useEffect(() => {
     fetch('http://pixelninja.co.uk/cocktail')
