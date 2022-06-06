@@ -11,7 +11,7 @@ const MainMenu = () => {
   //const [error, setError] = useState(null);  
  
   useEffect(() => {
-    fetch('https://pixelninja.co.uk/cocktail/getTestOne.php')
+    fetch('https://pixelninja.co.uk/cocktail/getTestOne.html')
     .then((response) => console.log(response));
  }, []);
     
